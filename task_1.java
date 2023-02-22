@@ -11,7 +11,7 @@ public class task_1 {
  int val = rnd.nextInt(-100, 100);
  list1.add(val);
         }
- System.out.printf("Изначальный список %s\n", list1);
+ System.out.printf("Изначальный список: %s\n", list1);
  int i = 0;
  while (i < list1.size()) {
  if (list1.get(i) % 2 == 0) {
@@ -21,6 +21,6 @@ public class task_1 {
  i++;
             }
         }
- System.out.printf("Список без четных чисел %s", list1);
+ System.out.printf("Список без четных чисел: %s", list1);
     }
 }
